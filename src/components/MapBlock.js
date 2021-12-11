@@ -22,7 +22,7 @@ const MapBlock = () => {
     }, [routesYMap, myRef, ymaps])
 
     return (
-        <YMaps query={{ apikey: "79bce9bd-40a6-4238-8093-138de016b824" }}>
+        <YMaps query={{ apikey: "" }}>
             <Map
                 modules={["multiRouter.MultiRoute"]}
                 state={mapState}
