@@ -1,0 +1,1 @@
+export const errList = <p className='badge bg-danger'>Список маршрутов пуст</p>

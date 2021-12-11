@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.routes-list h5 {
+  display: inline-block;
+}
+
+.routes-list .list-group-item span {
+  margin-right: 5px;
+  color: #7e7e7e;
+}
+.routes-list .list-group-item * {
+  pointer-events: none;
+}
+
+.routes-list .list-group-item {
+  cursor: grab;
+}
+.routes-list .list-group-item:active {
+  cursor: grabbing;
+}
+
+.routes-list .list-group-item small {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+.routes-list .list-group-item.touch-active {
+  background: #3fff0038;
+}
+
+.btn-delete-route {
+  pointer-events: all !important;
+}
+
+.btn-delete-route.point-none {
+  pointer-events: none !important;
+}
